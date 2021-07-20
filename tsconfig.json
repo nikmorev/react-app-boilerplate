@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@": ["src"],
+      "@/*": ["src/*"],
+      "Components/*": ["src/components/*"],
+      "Containers/*": ["src/containers/*"],
+      "Helpers": ["src/helpers"],
+      "Store": ["src/store"],
+      "Store/*": ["src/store/*"],
+    },
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2020"
+    ],
+    "jsx": "preserve",
+    "target": "es6",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true
+  }
+}
